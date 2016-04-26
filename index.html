@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="css/slick.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/modal.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+
+</head>
+
+<body>
+
+<div id="top" class="wrapper JM_camp">
+
+	<!-- .header логотип+навигация+телефон-->
+	<header id="header" class="header colorLine">
+		<div id="main__menu" class="container container_center">
+		
+			<!-- begin Logo block -->
+			<div class="header__logo">
+				<a href="#top"><img src="img/logo.png" alt=""/></a>
+				<p class="small"><a href="http://www.jm-school.ru/" target="blank">Музыкальная школа J&M SCHOOL</a></p>
+			</div>
+			<!-- end Logo block -->
+			
+			<!-- begin Right block -->
+			<div class="header__flip">
+				<div class="call__us">
+					<a href="tel: +7 (812) 908-97-97">+7 (812) 908-97-97 <img src="img/call.png" alt=""/></a>
+				</div>
+			</div>
+			<!-- end Right block -->
+			
+			<!-- begin Center blok -->
+			<div class="header__center">
+				<!-- begin navbar main__menu -->
+				<ul class="navbar main__menu">
+					<li class="navabr__item">
+						<a href="#about_cump" class="navabr__link">О лагере</a>
+					</li>
+					<li class="navabr__item">
+						<a href="#programm" class="navabr__link">Программа</a>
+					</li>
+					<li class="navabr__item">
+						<a href="#teacher" class="navabr__link">Преподаватели</a>
+					</li>
+					<li class="navabr__item">
+						<a href="#place" class="navabr__link">Размещение</a>
+					</li>
+					<li class="navabr__item">
+						<a href="#reviews" class="navabr__link">Отзывы</a>
+					</li>
+				</ul>
+				<!-- end navbar main__menu -->
+			</div>
+			<!-- end Center blok -->
+			
+		</div>
+	</header>
+
+
+	<main class="main__content">
+		
+		<!-- Слайдер -->
+		<div class="bigSlider colorLine">
+			<div class="container container__center">
+				<div class="bigSlider__h1">Летний<br>Музыкальный<br>Лагерь<br>для детей</div>
+			</div>
+			<div id="first_slider" class="first__slider">
+
+				<div>
+					<div class="container container_center">
+						<div class="slide__1" style="background-image: url(img/slide1.jpg);"></div>
+					</div>
+				</div>
+
+				<div>
+					<div class="container container_center">
+						<div class="slide__2" style="background-image: url(img/slide2.jpg);"></div>
+					</div>
+				</div>
+
+				<div>
+					<div class="container container_center">
+						<div class="slide__3" style="background-image: url(img/slide3.jpg);"></div>
+					</div>
+				</div>
+
+				<div>
+					<div class="container container_center">
+						<div class="slide__4" style="background-image: url(img/slide4.jpg);"></div>
+					</div>
+				</div>
+
+				<div>
+					<div class="container container_center">
+						<div class="slide__5" style="background-image: url(img/slide5.jpg);"></div>
+					</div>
+				</div>
+
+				<div>
+					<div class="container container_center">
+						<div class="slide__6" style="background-image: url(img/slide6.jpg);"></div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!-- Блок описание -->
+		<div class="description">
+		<div id="about_cump" class="anchore"></div>
+			<div class="container container__center">
+				<p class="description__first">«J&M CAMP» — не имеющий аналогов проект от создателей профессиональных мюзиклов с участием детей: «Приключения Барона Мюнхгаузена» и «Волшебник из страны Оз»!</p>
+				<p>Юные актеры и актрисы будут работать над актерским мастерством, сценической речью и пластикой, фехтованием и сценическим боем, вокалом, хореографией.</p>
+				<p>Мы предлагаем вашим детям провести незабываемое арт - лето в команде талантливых  режиссеров и актеров – создателей профессиональных мюзиклов.</p>
+				<p>На мастер-классах и групповых занятиях мы поделимся практическими секретами успешного выступления перед любой аудиторией, раскроем тайны актерской профессии,  научим ребят не бояться сцены.</p>
+				<p class="description__last">Мы приглашаем ребят, мечтающих окунуться в театрально-музыкальную жизнь и освоить азы творческиx профессий не только в теории, но и на практике!</p>
+			</div>
+		</div>
+		
+		<!-- Блок с формой Записаться в лагерь -->
+		<div class="lagerForm">
+			<div class="container container__center">
+				<h2 class="formTitle">Хочу отправить ребенка в лагерь!</h2>
+				<form action="callback-popup.php" class="container container__center">
+					<input class="lagerForm__text" type="text" name="name" placeholder="Введите Ваше имя">
+					<input class="lagerForm__tel" type="tel" name="tel" placeholder="Введите Ваш номер телефона">
+					<input class="formButton" type="submit" value="Записаться в лагерь!">
+					<div class="result"></div>
+				</form>
+			</div>
+		</div>
+
+		<!-- Блок Смены лагеря -->
+		<div class="changes">
+			<div class="form__arrow"></div>
+			<div class="container container__center">
+				<h2 class="formTitle">СМЕНЫ ЛАГЕРЯ «J&M CAMP» </h2>
+				<div class="changes__circles">
+					<div class="changes__circle1">
+						<h3>Городской лагерь<br>«MUSIC STAR»</h3>
+						<p class="changes__red">Даты: 30 мая - 19 июня</p>
+						<p class="changes__green">Концепция:</p>
+						<p>Лагерь со съемкой<br>музыкального клипа</p>
+					</div>
+					<div class="changes__circle2">
+						<h3>Выездной лагерь<br>«J&M CAMP»</h3>
+						<p class="changes__red">1 смена: 4 июня - 17 июня</p>
+						<p class="changes__green">Концепция:</p>
+						<p>Театральный<br>музыкальный лагерь</p>
+					</div>
+					<div>
+						<h3>Выездной лагерь<br>«J&M CAMP»</h3>
+						<p class="changes__red">2 смена: 24 июня–7 июля </p>
+						<p class="changes__green">Концепция:</p>
+						<p>Вокальный<br>театральный лагерь</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Блок Условия -->
+		<div class="container container__center">
+			<div class="conditions">
+				<div class="conditions__insiders">
+					<img src="img/conditionsImg1.png" class="conditionsImg1" width="72" height="61">
+					<h4>Участники лагеря:</h4>
+					<p>дети 8-16 лет</p>			
+				</div>
+				<div class="conditions__kids">
+					<img src="img/conditionsImg2.png" class="conditionsImg2" width="101" height="71">
+					<h4>Количество детей:</h4>
+					<p>24 человека (макс.)</p>
+				</div>
+				<div class="conditions__place">
+					<img src="img/conditionsImg3.png" class="conditionsImg3" width="92" height="63">
+					<h4>Месторасположение:</h4>
+					<p>На беругу озера Сайма</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Блок Месторасположение -->
+		<div class="location">
+			<div class="container container__center">
+				<h2 class="green__h2">Месторасположение</h2>
+				<p class="location__p">Лагерь находится в экологически чистой, заповедной зоне на берегу озера Сайма.</p>
+			</div>
+		</div>
+
+		<!-- Блок с картой -->
+		<div class="blokMap">
+			<div class="blokMap__picture"></div>
+			<div id="jm-map" class="blokMap__maps">
+				<script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script> 
+				 
+				<script> 
+				    google.maps.event.addDomListener(window, 'load', init);
+				    var map;
+				    function init() {
+				        var mapOptions = {
+				            center: new google.maps.LatLng(61.214683,27.952401),
+				            zoom: 15,
+				            zoomControl: true,
+				            zoomControlOptions: {
+				                style: google.maps.ZoomControlStyle.DEFAULT,
+				            },
+				            disableDoubleClickZoom: true,
+				            mapTypeControl: true,
+				            mapTypeControlOptions: {
+				                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+				            },
+				            scaleControl: true,
+				            scrollwheel: false,
+				            panControl: true,
+				            streetViewControl: true,
+				            draggable : true,
+				            overviewMapControl: true,
+				            overviewMapControlOptions: {
+				                opened: false,
+				            },
+				            mapTypeId: google.maps.MapTypeId.ROADMAP,
+				        }
+				        var mapElement = document.getElementById('jm-map');
+				        var map = new google.maps.Map(mapElement, mapOptions);
+				        var locations = [
+				['«J&M CAMP»', 'undefined', 'undefined', 'undefined', 'undefined', 61.2152527, 27.951715899999954, 'https://mapbuildr.com/assets/img/markers/default.png']
+				        ];
+				        for (i = 0; i < locations.length; i++) {
+							if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
+							if (locations[i][2] =='undefined'){ telephone ='';} else { telephone = locations[i][2];}
+							if (locations[i][3] =='undefined'){ email ='';} else { email = locations[i][3];}
+				           if (locations[i][4] =='undefined'){ web ='';} else { web = locations[i][4];}
+				           if (locations[i][7] =='undefined'){ markericon ='';} else { markericon = locations[i][7];}
+				            marker = new google.maps.Marker({
+				                icon: markericon,
+				                position: new google.maps.LatLng(locations[i][5], locations[i][6]),
+				                map: map,
+				                title: locations[i][0],
+				                desc: description,
+				                tel: telephone,
+				                email: email,
+				                web: web
+				            });
+				link = '';     }
+
+				}
+				</script>				
+			</div>
+		</div>
+
+		<!-- Блок с формой Хочу отправить ребенка! -->
+		<div class="greenForm">
+			<form action="callback-popup.php" class="container container__center">
+				<input class="lagerForm__text" type="text" name="name" placeholder="Введите Ваше имя">
+				<input class="lagerForm__tel" type="tel" name="tel" placeholder="Введите Ваш номер телефона">
+				<input class="formButton" type="submit" value="Хочу отправить ребенка!">
+				<div class="result"></div>
+			</form>
+		</div>
+		
+		<!-- Блок Программа занятий -->
+		<div class="lagerProgram">
+		<div id="programm" class="anchore"></div>
+			<div class="container container__center">
+			<h2 class="formTitle">Программа занятий в НАших лагерях</h2>
+				<div class="lagerProgram__S">
+					<div>
+						<h4>Городской лагерь<br>«MUSIC STARS»</h4>
+						<ul>
+							<li>Вокал</li>
+							<li>Актерское мастерство и актерские тренинги</li>
+							<li>Сценическая речь</li>
+							<li>Сценическое движение</li>
+							<li>Хореография</li>
+							<li>Фехтование</li>
+							<li>Запись песни на студии</li>
+							<li>Съемка видео-клипа</li>
+							<li>Посещение музеев</li>
+							<li>Прогулки в парках</li>
+						</ul>
+					</div>
+					<div>
+						<h4>Выездной лагерь<br>«J&M CAMP» - 1 смена</h4>
+						<ul>
+							<li>Актерское мастерство и тренинги</li>
+							<li>Сценическая речь и пластика</li>
+							<li>Фехтование и сценический бой</li>
+							<li>Вокальный ансамбль</li>
+							<li>Мастер-классы и творческие вечера</li>
+							<li>Уличные игры</li>
+							<li>Велосипедные и пешие походы</li>
+						</ul>
+					</div>
+					<div>
+						<h4>Выездной лагерь<br>«J&M CAMP» - 2 смена</h4>
+						<ul>
+							<li>Индивидуальные консультации по вокалу</li>
+							<li>Вокальные тренинги</li>
+							<li>Вокальный ансамбль</li>
+							<li>Сценическое мастерство вокалиста</li>
+							<li>Мастер-классы и творческие вечера</li>
+							<li>Уличные игры</li>
+							<li>Велосипедные и пешие походы</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Блок Отдых в Финляндии -->
+		<div class="FinlandRest colorLine">
+			<div class="container container__center">
+				<h2 class="green__h2">Активный отдых в финляндии</h2>
+				<div class="FinlandRest__types">
+					<div>
+						<div class="topRest">
+							<img src="img/ball.png">
+							<p class="ballP">Спортивные площадки для игр в волейбол, бадминтон</p>
+						</div>
+					</div>
+					<div>
+						<div class="topRest">
+							<img src="img/nature.png" width="75" height="76">
+							<p class="ballP">Лужайки и беседки для игр и занятий на свежем воздухе</p>
+						</div>
+					</div>
+					<div>
+						<div class="topRest">
+							<img src="img/swimming.png">
+							<p class="ballP">Пляж с пологим спуском в воду, оборудованные зоны для купания</p>
+						</div>
+					</div>
+					<div>
+						<div class="topRest">
+							<img src="img/cycle.png">
+							<p class="ballP">Велосипедные и пешие прогулки</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Блок Наша команда -->
+		<div class="ourTeam colorLine">
+		<div id="teacher" class="anchore"></div>
+			<div class="container container__center">
+				<h2 class="green__h2">Наша команда</h2>
+				<div class="teamTroika1">
+					<div>
+						<img src="img/person1.jpg" width="320" height="341">
+						<h4 class="namePerson">Волошина Мария</h4>
+						<p class="fontBold">Генеральный директор Школы Джаза и Мюзикла «J&M School» и Продюсерского центра «J&M Show».</p>
+						<p>Певица, педагог по эстрадно-джазовому вокалу, лауреат и член жюри российских и междунароных вокальных конкурсов.</p>
+						<p>Продюсер мюзиклов “Волшебник из страны Оз» и «Приключения Барона Мюнхгаузена», лауреат премии «Женщина года-2013» в номинации «За социальную ответственность бизнеса», Лауреат премии «XX успешных людей Петербурга» в номинации «Стартап».</p>
+					</div>
+					<div>
+						<img src="img/person2.jpg" width="320" height="341">
+						<h4 class="namePerson">Дмитрий Сарвин</h4>
+						<p class="fontBold">Режиссер-постановщик и художественный -руководитель  J&M CAMP. </p>
+						<p>Член СТДРФ. C 2004 ПО 2011г. режиссер-постановщик театра "Мюзик-Холл",  c 2013 - режиссер-постановщик, художник -постановщик и художник- мультипликатор театра "Алеко".</p>
+						<p>Режиссер-постановщик музиков  J&M SHOW  «Волшебник из страны Оз» и «Приключения Барона Мюнхгаузена».</p>
+						<p>Окончил Санкт-Петербургскую Государственную Академию Театрального Искусства: Мастерская профессора И. А. Богданова по специальности: режиссура.</p>
+					</div>
+					<div>
+						<img src="img/person3.jpg" width="320" height="341">
+						<h4 class="namePerson">Виктория Сарвина</h4>
+						<p class="fontBold">Педагог по актерскому мастерству и сценической речи.</p>
+						<p>Также производила режиссерские постановки спектаклей. Ведет тренинги актерского мастерства.</p>
+						<p>Образование: Санкт-Петербургский Государственный Университет Культуры и Искусств. Специальность – режиссура.</p>
+						<p>Опыт работы:</p>
+						<p>Санкт - Петербургский Мюзик - Холл с 2004 года. Занимаемая должность - актриса, режиссер. </p>
+					</div>
+				</div>
+				<div class="teamTroika2">
+					<div>
+						<img src="img/person4.jpg" width="320" height="341">
+						<h4 class="namePerson">Елена Яловая</h4>
+						<p class="fontBold">Педагог по вокалу.</p>
+						<p>Начинала свою творческую деятельность в Ленконцерте, в 1986 году,в коллективе Игоря Петренко "В ритмах века".</p>
+						<p>Увлеклась джазом в 1990-е годы,сотрудничала с коллективом "Calypso-blues-band".</p>
+						<p>Выступала с биг-бендами Вила Тарасова и Юрия Ильина, Сергея Гусятинского.</p>
+						<p>В настоящее время имеет несколько музыкальных проектов, представляет сольную программу в Филармонии джазовой музыки.</p>
+					</div>
+					<div>
+						<img src="img/person5.jpg" width="320" height="341">
+						<h4 class="namePerson">Дарья Троян</h4>
+						<p class="fontBold">Педагог по вокалу, вокальному ансамблю.</p>
+						<p>Лауреат всероссийских и международных вокальных конкурсов - международный фестиваль-конкурс "Надежды Европы"(г.Сочи, Россия), международный конкурс a'cappella "VOCAL.TOTAL" (г.Грац, Австрия) Экс-солистка Тюменской Государственной Филармонии, Вокал-группы "SunRise"; участник культурной программы Олимпиады и Паралимпиады SOCH-2014.</p>
+						<p>Сотрудничество с Алексеем Чумаковым, Alex Ross (Алексей Ульянов-победитель проекта "Голос" Латвия) и др.</p>
+					</div>
+					<div>
+						<img src="img/person6.jpg" width="320" height="341">
+						<h4 class="namePerson">Полина ШМАН</h4>
+						<p class="fontBold">Педагог по актерскому мастерству.</p>
+						<p>Ведущая солистка Санкт-Петербургского театра «Мюзик-Холл».</p>
+						<p>Музыкальные спектакли, в которых принимала участие: «Шоу для Элизы», «Театр Джулии Ламберт»,  «Золушка», «Синема», «Алиса в стране чудес», «Паркъ»,  «Нежная Королева»,«Муха-Цокотуха».</p>
+						<p>Музыкальный руководитель и педагог по вокалу в спектакле «И снова весна». Окончила Екатеринбургский Театральный Институт, отделение — актер музыкального театра, а также СПбГУКИ ,  специальность: концертный исполнитель, преподаватель эстрадно- джазового вокала.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- begin whay -->
+		<div class="whay__jm">
+			<div class="container container_center">
+				<div class="title__section red">Почему J&M Camp?</div>
+
+				<div class="whay__grid">
+					<div class="whay__grid__item">
+						<div class="whay__item__img"><img src="img/whay1.png" alt=""/></div>
+						<div class="whay__item__title">Инновационная <br>программа</div>
+						<div class="whay__item__text">Не имеющая аналогов в СПб и России. Увлекательная программа для детей и подростков</div>
+					</div>
+					<div class="whay__grid__item">
+						<div class="whay__item__img"><img src="img/whay2.png" alt=""/></div>
+						<div class="whay__item__title">Высоко­квалифи­цированные <br>преподаватели</div>
+						<div class="whay__item__text">Команда профессионалов под руководством продюсера мюзиклов J&M Show – Марии Волошиной, во главе с главным режиссером, членом союза театральных деятелей РФ, Дмитрием Сарвиным.</div>
+					</div>
+					<div class="whay__grid__item">
+						<div class="whay__item__img"><img src="img/whay3.png" alt=""/></div>
+						<div class="whay__item__title">Абсолютная гарантия <br>безопасности ваших детей</div>
+						<div class="whay__item__text">За время существования J&M School и J&M Camp у нас прошли обучение более 3000 детей.</div>
+					</div>
+				</div>
+				<div class="video_box">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/mnlh2YGaG_E" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<!-- end whay -->
+
+		<!-- Блок с формой Хочу отправить ребенка! -->
+		<div class="greenForm">
+			<form action="callback-popup.php" class="container container__center">
+				<input class="lagerForm__text" type="text" name="name" placeholder="Введите Ваше имя">
+				<input class="lagerForm__tel" type="tel" name="tel" placeholder="Введите Ваш номер телефона">
+				<input class="formButton" type="submit" value="Хочу отправить ребенка!">
+				<div class="result"></div>
+			</form>
+		</div>
+		
+		<!-- begin lm__place -->
+		<div class="lm__place colorLine">
+		<div id="place" class="anchore"></div>
+			<div class="container container_center">
+				<div class="title__section green">место проведения и размещение</div>
+				
+				<!-- begin place__column -->
+				<div class="place__column__wrap">
+					<div class="place__column">
+						<div class="place__column__title">Городской лагерь  «MUSIC STAR» </div>
+						<div id="sityCampSlider" class="place__column__img">
+							<a href="img/place1.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.jpg" alt=""/></a>
+							<a href="img/place1.1.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.1.jpg" alt=""/></a>
+							<a href="img/place1.2.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.2.jpg" alt=""/></a>
+							<a href="img/place1.3.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.3.jpg" alt=""/></a>
+							<a href="img/place1.4.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.4.jpg" alt=""/></a>
+							<a href="img/place1.5.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.5.jpg" alt=""/></a>
+							<a href="img/place1.6.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.6.jpg" alt=""/></a>
+							<a href="img/place1.7.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.7.jpg" alt=""/></a>
+							<a href="img/place1.8.jpg" data-toggle="lightbox" data-gallery="sityCamp"><img src="img/place1.8.jpg" alt=""/></a>
+						</div>
+						<ul class="place__column__list">
+							<li>Пребывание в лагере с 10:00 до 19:00</li>
+							<li>3-х разовое питание</li>
+							<li>Профессиональные преподаватели</li>
+							<li>Зона для отдыха с wi-fi</li>
+							<li>Класс для занятий вокалом</li>
+							<li>Профессиональное оборудование для записи клипа</li>
+						</ul>
+					</div>
+					<div class="place__column">
+						<div class="place__column__title">Выездной лагерь «J&M CAMP»</div>
+						<div id="outCampSlider" class="place__column__img">
+							<a href="img/place2.jpg" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.jpg" alt=""/></a>
+							<a href="img/place2.1.jpg" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.1.jpg" alt=""/></a>
+							<a href="img/place2.2.jpg" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.2.jpg" alt=""/></a>
+							<a href="img/place2.3.jpg" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.3.jpg" alt=""/></a>
+							<a href="img/place2.4.jpg" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.4.jpg" alt=""/></a>
+							<a href="img/place2.5.jpg" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.5.jpg" alt=""/></a>
+							<a href="img/place2.6.png" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.6.png" alt=""/></a>
+							<a href="img/place2.7.png" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.7.png" alt=""/></a>
+							<a href="img/place2.8.png" data-toggle="lightbox" data-gallery="outCamp"><img src="img/place2.8.png" alt=""/></a>
+						</div>
+						<ul class="place__column__list">
+							<li>Лагерь находится недалеко от г. Лаппеенранта, в экологически чистой, заповедной зоне на берегу озера Сайма;</li>
+							<li>2-х, 4-х местное размещение в комформательных номерах в здании старинной деревянной  усадьбы;</li>
+							<li>Холл для проведения занятий и мастер-классов</li>
+							<li>Уютные лаунж-зоны в мансарде для занятий в группах;</li>
+							<li>Лужайка для активных игр и занятий на свежем воздухе;</li>
+							<li>Пологий пляж на берегу озера, оборудованные зоны для купания;</li>
+							<li>Сауна и охотничий домик для приготовления рыбы и мяса на гриле.</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end place__column -->
+
+			</div>
+		</div>
+		<!-- end lm__place -->
+
+		<!-- begin security -->
+		<div class="security colorLine">
+			<div class="container container_center">
+				<div class="title__section green">Мы заботимся о здоровье <br>и безопасности ваших детей</div>
+
+				<div class="security__sub">На занятиях и во время отдыха наши ответственные вожатые и педагоги следят за безопасностью детей, принимая во внимание все их потребности и выручают в любой ситуации. Территория центра отдыха является охраняемой, за ней ведется постоянный контроль.</div>
+
+				<div class="security__grid">
+					<div class="security__grid__item">
+						<div class="security__item__img"><img src="img/sec1.png" alt=""/></div>
+						<div class="security__item__title">Безопасность</div>
+						<div class="security__item__text">Дети находятся под постоянным контролем взрослых. Группы формируются по возрасту.</div>
+					</div>
+					<div class="security__grid__item">
+						<div class="security__item__img"><img src="img/sec2.png" alt=""/></div>
+						<div class="security__item__title">Питание</div>
+						<div class="security__item__text">Качественное, сбалансированное 4-х разовое питание (завтрак, обед, полдник, ужин).</div>
+					</div>
+					<div class="security__grid__item">
+						<div class="security__item__img"><img src="img/sec3.png" alt=""/></div>
+						<div class="security__item__title">Необходимые документы</div>
+						<div class="security__item__text"><a href="DOC.pdf" download>Загрузить документы по ссылке</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end security -->
+
+		<!-- begin review -->
+		<div class="review svg__arrow svg__arrow__white">
+		<div id="reviews" class="anchore"></div>
+			<div class="container container_center">
+				<div class="title__section green">Отзывы наших участников</div>
+
+				<div class="review__text">
+					<div class="review__text__column">
+						<div class="review__text__img">
+							<img src="img/rev1.jpg" alt=""/>
+						</div>
+						<div class="review__text__name">София Росин</div>
+						<div class="review__text__rev">
+							Три недели, проведенные в Лагере J&M, надолго останутся в моей памяти. Было.. весело...креативно, познавательно, интересно, супер, здорово, интригующе, забавно: хореография, сценическое мастерство, вокальное пение, оформление декораций<span class="etc">...</span><span  class="more__review">	кастинг и распределение ролей...постановка замечательного мюзикла "Король-Лев"...новые классные друзья... общение на английском... вкусная еда... совместные походы в музеи... увлекательные прогулки по историческому Петербургу и...долгожданная Премьера на настоящей сцене, с настоящим занавесом!...цветы, овации... полноту всех ощущений просто не передать словами. ... А после лагеря нам никак не расстаться....посещение Диво Парка... драйв...адреналин...смех... тусовки...встречи... Словом, незабываемые впечатления на всю жизнь! Спасибо всем преподавателям, вожатым, Диме Сарвину, Дэвиду Посту, ну и конечно же Марии Николаевне-директору школы, Кате -ее заместителю... вы такие классные, добрые и волшебные музыкальные феи и маги.</span>
+						</div>
+						<button class="btn btn__review">Показать отзыв</button>
+					</div>
+					<div class="review__text__column">
+						<div class="review__text__img">
+							<img src="img/rev2.jpg" alt=""/>
+						</div>
+						<div class="review__text__name">Дима Петренко</div>
+						<div class="review__text__rev">"Июнь прошлого лета , 14 года, я провел в лагере школы джаза и мюзикла. Честно говоря, я не очень -то хотел туда идти... но пошел. И не пожалел! Оказалось все очень интересно. Главным в лагере был Дэвид , преподаватель мюзикла из Америки Отличный человек .<span class="etc">...</span><span class="more__review"> Он не похож на наших учителей . Он добрый , позитивный , все время улыбается и хвалит своих учеников . Говорил он с нами на английском , я его понимал . Мне кажется , он немного научился по русски ... За три недели нам удалось поставить спектакль . На английском языке . Это был мюзикл" Король - Лев ". Спектакль прошел с большим успехом, родители были в восторге . А самое ценное - это друзья , которые у меня появились . И еще прогулки с Дэвидом по Питеру , по самым красивым местам города . Он не жалел на нас времени и радовался и восторгался вместе с нами .Было очень хорошо . я его вспоминаю с большой теплотой . И всех других педагогов -тоже . Нашего постановщика Диму , девушек - воспитателей , он хорошо говорили на английском и переводили , если было непонятно . Я не думал , что это так интересно , заниматься творчеством , в основном я занимаюсь математико . Хотелось бы еще раз побывать в таком лагере . Это весело!"</span></div>
+						<button class="btn btn__review">Показать отзыв</button>
+					</div>
+				</div>
+
+				<div class="review__video">
+					<div class="review__video__wrap">
+						<iframe width="495" height="244" src="https://www.youtube.com/embed/UQP1LBbPUA0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="review__video__description">
+						<div class="review__video_title">Видеоотзыв участницы</div>
+						<p>Одна из участниц смены 2014 года настолько вдохновилась отдыхом в нашем лагере, что не просто написала отзыв, а смотировала целый ролик. <br>
+						Смотрите о том, как проходил отдых детей и подготовка к премьере мюзикла “Король Лев” в городском лагере.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end review -->
+
+		<!-- Блок с формой Хочу отправить ребенка! -->
+		<div class="greenForm largeForm">
+			<h2 class="formTitle">Хочу отправить ребенка в лагерь!</h2>
+			<form action="callback-popup.php" class="container container__center">
+				<input class="lagerForm__text" type="text" name="name" placeholder="Введите Ваше имя">
+				<input class="lagerForm__tel" type="tel" name="tel" placeholder="Введите Ваш номер телефона">
+				<input class="formButton" type="submit" value="Хочу отправить ребенка!">
+				<div class="result"></div>
+			</form>
+		</div>
+
+		<!-- begin subfooter -->
+		<div class="subfooter">
+			<div class="container container_center">
+				<div class="subfooter__grid">
+					<div class="subfooter__grid__item">
+						<div class="subfooter__grid__title">Здравствуйте!</div>
+						<p>Оставьте заявку и мы с радостью ответим на ваши вопросы.</p>
+					</div>
+					<div class="subfooter__grid__item">
+						<div class="subfooter__grid__title">Приезжайте к нам:</div>
+						<p><b>Адрес лагеря:</b><br>
+							Городской : Кузнечный пер., д. 6 <br>Выездной : Финляндия,Лаппеенранта
+						</p>
+						<p><b>Продажа путевок:</b><br>
+							Кузнечный пер., д. 6
+						</p>
+					</div>
+					<div class="subfooter__grid__item">
+						<div class="subfooter__grid__title">Пишите нам:</div>
+						<p>
+							<a href="mailto:info@jm-school.ru">info@jm-school.ru</a><br>
+							<a href="mailto:jm.school.spb@gmail.com">jm.school.spb@gmail.com</a>
+						</p>
+					</div>
+					<div class="subfooter__grid__item">
+						<div class="subfooter__grid__title">Звоните нам:</div>
+						<p>2014-2015 © J&M Camp - театрально-музыкальный лагерь</p>
+						<p><a href="#" data-toggle="modal" data-target="#personal">Показать соглашение об обработке персональных данных</a></p>
+						<p class="small"><a href="http://www.jm-school.ru/" target="blank">Музыкальная школа J&M SCHOOL</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end subfooter -->
+		
+	</main><!-- .content -->
+
+</div><!-- .wrapper -->
+
+	<footer class="footer colorLine">
+		<div class="container container_center">
+		
+			<!-- begin Logo block -->
+			<div class="header__logo">
+				<a href="/"><img src="img/logo.png" alt=""/></a>
+			</div>
+			<!-- end Logo block -->
+			
+			<!-- begin Right block -->
+			<div class="header__flip">
+				<div class="call__us">
+					<a href="tel: +7 (812) 908-97-97">+7 (812) 908-97-97 <img src="img/call.png" alt=""/></a>
+				</div>
+			</div>
+			<!-- end Right block -->
+			
+			<!-- begin Center blok -->
+			<div class="header__center">
+				<!-- begin navbar main__menu -->
+				<ul id="footer__menu" class="navbar main__menu">
+					<li class="navabr__item">
+						<a href="#about_cump" class="navabr__link">О лагере</a>
+					</li>
+					<li class="navabr__item">
+						<a href="#programm" class="navabr__link">Программа</a>
+					</li>
+					<li class="navabr__item">
+						<a href="#teacher" class="navabr__link">Преподаватели</a>
+					</li>
+					<li class="navabr__item">
+						<a href="#place" class="navabr__link">Размещение</a>
+					</li>
+					<li class="navabr__item">
+						<a href="#reviews" class="navabr__link">Отзывы</a>
+					</li>
+				</ul>
+				<!-- end navbar main__menu -->
+			</div>
+			<!-- end Center blok -->
+			
+		</div>
+	</footer>
+<div id="preloader"></div>
+<!-- Modal -->
+<div class="modal fade" id="personal">
+  <div class="modal-dialog">
+  <button class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-content">
+	    <div class="modal-legend">соглашение об обработке персональных данных</div>
+
+    	<p>Данное соглашение об обработке персональных данных разработано в соответствии с законодательством Российской Федерации.</p>
+
+		<p>Все лица заполнившие сведения, составляющие персональные данные на данном сайте, а также разместившие иную информацию обозначенными действиями подтверждают свое согласие на обработку персональных данных и их передачу оператору обработки персональных данных.</p>
+
+		<p>Под персональными данными Гражданина понимается нижеуказанная информация:</p>
+
+		<p>общая информация (Имя и телефон); посетители сайта направляют свои персональные данные для получения консультации по вопросам летнего лагеря.</p>
+
+		<p>Гражданин, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие, что обработка их персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, уничтожение.</p>
+
+		<p>Мы не передаем ваши данные третьим лицам и не будем осуществять периодические расссылки.</p>
+
+		<p>Гражданин гарантирует: информация, им предоставленная, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена Гражданина в отношении себя лично.</p>
+
+		<p>Срок обработки персональных данных 1-3 дня. Срок хранения персональных данных 14 рабочих дней с момента оставления заявки.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
