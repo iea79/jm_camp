@@ -814,10 +814,12 @@ p {
 }
 
 .video_box {
-	width: 568px;
-	height: 323px;
-	margin: 20px auto 0;
-	border: 4px solid #e8523a;
+	margin: 20px 0 0;
+	text-align: center;
+	iframe {
+		display: inline-block;
+		border: 4px solid #e8523a;
+	}
 }
 
 // Place ==========================================================================
